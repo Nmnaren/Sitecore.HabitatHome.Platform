@@ -23,7 +23,7 @@ SharedFields:
   Value: "{C1B8669B-C41A-4ED3-BF0D-E859CF880D42}"
 - ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
   Hint: Start Time
-  Value: 20181130T194326Z
+  Value: 20181031T040000Z
 - ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
   Hint: Campaign
   Value: "{99572572-8DCA-4EA3-B377-9AEE0700FAF8}"
@@ -33,7 +33,7 @@ SharedFields:
   Value: 0
 - ID: "ac436b75-b307-4409-8479-e299ace64859"
   Hint: End Time
-  Value: 20181130T194346Z
+  Value: 20181130T050000Z
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Sent
