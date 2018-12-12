@@ -1,9 +1,9 @@
 #addin "Cake.Azure"
-#addin "Cake.Http"
+#addin nuget:?package=Cake.Http&prerelease
 #addin "Cake.Json"
 #addin "Cake.Powershell"
 #addin "Cake.XdtTransform"
-#addin "Newtonsoft.Json"
+#addin "Cake.GitVersioning"
 
 
 
@@ -80,6 +80,12 @@ Setup(context =>
     }
 });
    
+
+Task("GetVersion")
+    .Does(() =>
+{
+    Information(GitVersioningGetVersion().SemVer2);
+});
 
 /*===============================================
 ============ Local Build - Main Tasks ===========
